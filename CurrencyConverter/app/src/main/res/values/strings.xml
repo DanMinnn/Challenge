@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">CurrencyConverter</string>
+    <string name="add_to_history">ADD TO HISTORY</string>
+    <string name="swap_currencies">SWAP CURRENCIES</string>
+    <string name="view_history">View History</string>
+    <string name="amount">Amount</string>
+    <string name="to">TO</string>
+    <string name="select_your_default_preference">Select Your Default Preference</string>
+</resources>
