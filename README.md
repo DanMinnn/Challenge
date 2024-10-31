@@ -2,15 +2,15 @@
 Using Clean Architecture and MVVM 
 
 Clean Architecture:
-models: Acts as the Entity or Domain Model layer, holding data models like CurrencyDTO and CurrencyWithCountryName.
-use_case: Contains the Use Cases, implementing the business logic, such as GetExchangeRateUseCase and HistoryUseCase.
-network and repositories: The network folder represents the Data Source layer, handling API or database connections, while repositories act as intermediaries between the use_case layer and data sources.
-presentation: This layer represents the UI / Presentation layer, managing ViewModels and other UI components.
+models: Acts as the Entity or Domain Model layer, holding data models like CurrencyDTO and CurrencyWithCountryName.\\
+use_case: Contains the Use Cases, implementing the business logic, such as GetExchangeRateUseCase and HistoryUseCase.\\
+network and repositories: The network folder represents the Data Source layer, handling API or database connections, while repositories act as intermediaries between the use_case layer and data sources.\\
+presentation: This layer represents the UI / Presentation layer, managing ViewModels and other UI components.\\
 
-MVVM (Model-View-ViewModel):
-Model: Includes classes in models and use_case for handling data and business logic.
-ViewModel: Contains classes in presentation, responsible for providing data to the View and handling user actions. ViewModels often call Use Cases from the use_case layer.
-View: The user interface, which receives data from the ViewModel and updates the UI.
+MVVM (Model-View-ViewModel):\\
+Model: Includes classes in models and use_case for handling data and business logic.\\
+ViewModel: Contains classes in presentation, responsible for providing data to the View and handling user actions. ViewModels often call Use Cases from the use_case layer.\\
+View: The user interface, which receives data from the ViewModel and updates the UI.\\
 
 # Steps to build and run the app
 
